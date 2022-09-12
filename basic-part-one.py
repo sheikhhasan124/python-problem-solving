@@ -8,3 +8,10 @@
 """ import datetime
 time = datetime.datetime.now()
 print("date is",time) """
+
+import datetime
+time = datetime.datetime.now()
+print("all time is",time)
+print("year is", time.year)
+print("day is", time.strftime("%A"))
+print("month is", time.strftime("%B"))
