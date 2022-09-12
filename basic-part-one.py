@@ -18,6 +18,22 @@ print("month is", time.strftime("%B")) """
 
 # problem -3 ---------
 # Write a Python program which accepts the radius of a circle from the user and compute the area.
-from math import pi
+""" from math import pi
 x = float(input("input the ridius of the circle:"))
-print("the area of the circle " + str(x) + " is: "+ str(pi * x**2))
+print("the area of the circle " + str(x) + " is: "+ str(pi * x**2)) """
+
+# problem -4 -------------
+# Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
+
+""" fname = input("enter first name : ")
+lname = input("enter last name : ")
+print(" Hello " + lname + " "+ fname) """
+
+# problem -5 --------------
+# Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.
+
+""" values = input("give some comma seperate num : ")
+list = values.split(",")
+tuple = tuple(list)
+print("List : ", list)
+print("tuple : ", tuple) """
