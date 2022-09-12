@@ -1,1 +1,1 @@
-nt(time)
+is

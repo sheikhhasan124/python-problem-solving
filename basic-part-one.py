@@ -9,9 +9,15 @@
 time = datetime.datetime.now()
 print("date is",time) """
 
-import datetime
+""" import datetime
 time = datetime.datetime.now()
 print("all time is",time)
 print("year is", time.year)
 print("day is", time.strftime("%A"))
-print("month is", time.strftime("%B"))
+print("month is", time.strftime("%B")) """
+
+# problem -3 ---------
+# Write a Python program which accepts the radius of a circle from the user and compute the area.
+from math import pi
+x = float(input("input the ridius of the circle:"))
+print("the area of the circle " + str(x) + " is: "+ str(pi * x**2))
