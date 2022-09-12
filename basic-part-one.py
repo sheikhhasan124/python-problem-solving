@@ -37,3 +37,10 @@ list = values.split(",")
 tuple = tuple(list)
 print("List : ", list)
 print("tuple : ", tuple) """
+
+# problem -6 ------------
+# Write a Python program to accept a filename from the user and print the extension of that.
+
+fileName = input("enter a file name : ")
+fExtention = fileName.split(".")
+input("the extention of the file name is : " + repr( fExtention[-1]))
