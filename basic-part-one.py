@@ -41,6 +41,23 @@ print("tuple : ", tuple) """
 # problem -6 ------------
 # Write a Python program to accept a filename from the user and print the extension of that.
 
-fileName = input("enter a file name : ")
+""" fileName = input("enter a file name : ")
 fExtention = fileName.split(".")
-input("the extention of the file name is : " + repr( fExtention[-1]))
+input("the extention of the file name is : " + repr( fExtention[-1])) """
+
+# problem -7 ---------
+# Write a Python program to display the first and last colors from the following list.
+""" colourList = ["white", "blue", "black","green"]
+print("%s %s"%(colourList[0], colourList[-1])) """
+
+# problem - 8 -----------
+# Write a Python program to display the examination schedule. (extract the date from exam_st_date).
+""" examDate = (10,11,2022)
+print("the exam will start from : %i / %i / %i"%examDate) """
+
+# problem 9 - -------------
+""" x = int(input("input an integer: "))
+n1 = int("%s" % x)
+n2 = int("%s%s" % (x,x))
+n3 = int("%s%s%s" % (x,x,x))
+print(n1+n2+n3) """
